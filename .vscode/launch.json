@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RobinHoodHashtable",
+            "request": "launch",
+            "mainClass": "trie_dictionary.RobinHoodHashtable",
+            "projectName": "Compressed-Trie-Dictionary",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch with Array Args",
+            "request": "launch",
+            "mainClass": "trie_dictionary.Menu",
+            "args": [
+                "lib\\combined-dictionary.txt",
+                "lib\\pg2600.txt"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
