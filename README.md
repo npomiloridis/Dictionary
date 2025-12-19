@@ -26,12 +26,12 @@ This program helps complete words by:
 
 1. Compile:
 ```bash
-javac UC1366149_UC1367923/*.java
+javac src/trie_dictionary/*.java
 ```
 
 2. Run:
 ```bash
-java UC1366149_UC1367923.Menu dictionary.txt text.txt
+java src/trie_dictionary.Menu dictionary.txt text.txt
 ```
 
 The first file should contain valid words. The second file is used to count how often words appear.
